@@ -5,10 +5,11 @@ import (
 )
 
 type point struct {
-	x, y int
+	x, y string
 }
 
 func main() {
-	p := point{1, 2}
-	fmt.Printf("struct1: %v\n", p)
+	p := point{"Das", "Beka"}
+	fmt.Printf("struct1: %s", p)
+
 }
